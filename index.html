@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cartizilla Fashion</title>
+
+   <!--CSS-->
+   <link rel="stylesheet" href="bootstrap.css">
+   <link rel="stylesheet" href="custom.css">
+
+   <!--Javascript-->
+   <script rel="stylesheet" href="./js/bootstrap.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+   <!--Icons-->
+   <link rel="stylesheet" href="bootstrap-icons.json">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+   <div class="wrapper">
+      <!--header section starts-->
+      <div class="header">
+            <div class="row">
+               <div class="services">
+                  <ul class="nav nav-pills nav-fill">
+                     <li>
+                        Support
+                        <button class="nav-btn">(00) 345 119 07</button>
+                     </li>
+                  </ul>
+               </div>
+   
+               <div class=" container logo-nav">
+                  <div>
+                     <div class="row">
+                        <div class="col-md-2 nav-logo">
+                           <img src="images/logo-dark.png">
+                        </div>
+                        <div class="col-md-7 nav-center collapse">
+                           <input type="text" class="search-bar" placeholder="Search for products">
+                           <i class="bi-search search-icon"></i>
+                        </div>
+                        <div class="col-md-3 nav-right">
+                           <i class="bi-list icon"></i>
+                           <i class="bi-heart icon"></i>
+                           <i class="bi-person icon"></i>
+                           <a>
+                              <small class="sign-btn">hello,Sign in</small>
+                              My Account
+                           </a>
+                           <div class="cart-container">
+                              <i class="bi-cart3 icon cart-icon"></i>
+                              <div class="cart-count">4</div>
+                           </div> 
+
+                           <div class="dropdown-hover">
+                              <a>
+                                 <small class="sign-btn">My Cart</small>
+                                 <div class="btn-group checkout-list">
+                                    <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      $265.00
+                                    </button>
+                                    <div class="dropdown-content">
+                                       <ul class="dropdown-menu drop-menu">
+                                          <li>
+                                             <div class="drop-item-container">
+                                                <img src="images/cart-images/01.jpg">
+                                                <div>
+                                                   <button class="dropdown-item drop-menu-text" type="button">
+                                                      Women Colorblock Sneakers
+                                                      </button>
+                                                      <p>$150.00 x 1</p>
+                                                </div>
+                                             </div>
+                                          </li>
+                                          <li><hr class="dropdown-divider"></li>
+                                          <li>
+                                             <div class="drop-item-container">
+                                                <img src="images/cart-images/02.jpg">
+                                                <div>
+                                                   <button class="dropdown-item drop-menu-text" type="button">
+                                                      TH Jeans City Backpack
+                                                      </button>
+                                                      <p>$79.50 x 1</p>
+                                                </div>
+                                             </div>
+                                          </li>
+                                          <li><hr class="dropdown-divider"></li>
+                                          <li>
+                                             <div class="drop-item-container">
+                                                <img src="images/cart-images/03.jpg">
+                                                <div>
+                                                   <button class="dropdown-item drop-menu-text" type="button">
+                                                      3-Color Sun Stash Hat
+                                                      </button>
+                                                      <p>22.50 x 1</p>
+                                                </div>
+                                             </div>
+                                          </li>
+                                          <li><hr class="dropdown-divider"></li>
+                                          <li>
+                                             <div class="total">
+                                                <div class="subtotal">
+                                                   Subtotal:$265.00
+                                                   <button>Expand cart</button>
+                                                </div>
+                                              <div>
+                                                <button class="checkout-btn">
+                                                   <i class="bi-credit-card"></i>Checkout
+                                                </button>
+                                              </div>
+                                             </div>
+                                             
+                                             
+                                          </li>
+                                       </ul>
+                                    </div>
+                                    
+                                  </div>
+                                 
+                              </a>
+                           </div>
+                           
+                           
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="second-nav">
+                  <nav class="navbar navbar-expand-lg">
+                     <div class="container-fluid">
+                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                       </button>
+                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                           <div class="departments">
+                              <li class="nav-item dropdown">
+                                 <a class="nav-link dropdown-toggle links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi-grid"></i>
+                                   Departments
+                                 </a>
+                                 <ul class="dropdown-menu drop-menu-container">
+                                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                                       <div class="col">
+                                         <div class="card dept-card">
+                                           <img src="images/departments/01.jpg" class="card-img-top" alt="...">
+                                           <div class="card-body">
+                                             <h5 class="card-title">Clothing</h5>
+                                             <p class="card-text">Women's clothing</p>
+                                             <p>Men's clothing</p>
+                                             <p>Kid's clothing</p>
+                                           </div>
+                                         </div>
+                                       </div>
+                                       <div class="col">
+                                         <div class="card dept-card">
+                                           <img src="images/departments/02.jpg" class="card-img-top" alt="...">
+                                           <div class="card-body">
+                                             <h5 class="card-title">Shoes</h5>
+                                             <p class="card-text">Women's shoes</p>
+                                             <p>Men's shoes</p>
+                                             <p>Kid's shoes</p>
+                                           </div>
+                                         </div>
+                                       </div>
+                                       <div class="col">
+                                         <div class="card dept-card">
+                                           <img src="images/departments/03.jpg" class="card-img-top" alt="...">
+                                           <div class="card-body">
+                                             <h5 class="card-title">Gadgets</h5>
+                                             <p class="card-text">Smartphones</p>
+                                             <p>Wearable gadgets</p>
+                                             <p>E-book readers</p>
+                                           </div>
+                                         </div>
+                                       </div>
+                                       <div class="col">
+                                         <div class="card dept-card">
+                                           <img src="images/departments/04.jpg" class="card-img-top" alt="...">
+                                           <div class="card-body">
+                                             <h5 class="card-title">Furniture & Decor</h5>
+                                             <p class="card-text">Home furniture</p>
+                                             <p>Office furniture</p>
+                                             <p>Lighting and decoration</p>
+                                           </div>
+                                         </div>
+                                       </div>
+                                       <div class="col">
+                                          <div class="card dept-card">
+                                            <img src="images/departments/05.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Accessories</h5>
+                                              <p class="card-text">Hats</p>
+                                              <p>Sunglasses</p>
+                                              <p>Bags</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col">
+                                          <div class="card dept-card">
+                                            <img src="images/departments/06.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Entertainment</h5>
+                                              <p class="card-text">Kid's</p>
+                                              <p>Video games</p>
+                                              <p>Outdoor/camping</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                     </div>
+                                </ul>
+                              </li>
+                           </div>
+                           <div class="home">
+                              <li class="nav-item dropdown">
+                                 <a class="nav-link links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   Home
+                                 </a>
+                                 <ul class="dropdown-menu home-list">
+                                   <li>
+                                    <a class="dropdown-item" href="#">NFT Marketplace<br>
+                                       <small>NFTs, Multi-vendor, Auctions</small>
+                                    </a>
+                                   </li>
+                                   <li><hr class="dropdown-divider"></li>
+                                   <li>
+                                    <a class="dropdown-item" href="#">Fashion Store v.1<br>
+                                       <small>classic shop layout</small>
+                                    </a>
+                                   </li>
+                                   <li><hr class="dropdown-divider"></li>
+                                   <li>
+                                    <a class="dropdown-item" href="#">Electronics Store<br>
+                                       <small>slide + promo banner</small>
+                                    </a>
+                                   </li>
+                                   <li><hr class="dropdown-divider"></li>
+                                   <li>
+                                    <a class="dropdown-item" href="#">Marketplace<br>
+                                       <small>Multi-vendor, digital goods</small>
+                                    </a>
+                                   </li>
+                                   <li><hr class="dropdown-divider"></li>
+                                   <li>
+                                    <a class="dropdown-item" href="#">Grocery Store<br>
+                                       <small>Full-width + Side menu</small>
+                                    </a>
+                                   </li>
+                                   <li><hr class="dropdown-divider"></li>
+                                   <li>
+                                    <a class="dropdown-item" href="#">Food Delivery Service<br>
+                                       <small>Food & Beverages delivery</small>
+                                    </a>
+                                   </li>
+                                   <li><hr class="dropdown-divider"></li>
+                                   <li>
+                                    <a class="dropdown-item" href="#">Fashion Store v.2<br>
+                                       <small>Slider + Featured categories</small>
+                                    </a>
+                                   </li>
+                                   <li><hr class="dropdown-divider"></li>
+                                   <li>
+                                    <a class="dropdown-item" href="#">Single Product Store<br>
+                                       <small>Single product/mono brand</small>
+                                    </a>
+                                   </li>
+                                </ul>
+                              </li>
+                           </div>
+                           <div class="shop">
+                              <li class="nav-item dropdown">
+                                 <a class="nav-link links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   Shop
+                                 </a>
+                                 <ul class="dropdown-menu shop-list">
+                                   <li><a class="dropdown-item" href="#">Action</a></li>
+                                   <li><a class="dropdown-item" href="#">Another action</a></li>
+                                   <li><hr class="dropdown-divider"></li>
+                                   <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </li>
+                           </div>
+                           <div class="account">
+                              <li class="nav-item dropdown">
+                                 <a class="nav-link links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   Account
+                                 </a>
+                                 <ul class="dropdown-menu acct-list">
+                                   <li><a class="dropdown-item" href="#">Action</a></li>
+                                   <li><a class="dropdown-item" href="#">Another action</a></li>
+                                   <li><hr class="dropdown-divider"></li>
+                                   <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </li>
+                           </div>
+                           <div class="pages">
+                              <li class="nav-item dropdown">
+                                 <a class="nav-link links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   Pages
+                                 </a>
+                                 <ul class="dropdown-menu page-list">
+                                   <li><a class="dropdown-item" href="#">Action</a></li>
+                                   <li><a class="dropdown-item" href="#">Another action</a></li>
+                                   <li><hr class="dropdown-divider"></li>
+                                   <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </li>
+                           </div>
+                           <div class="blog">
+                              <li class="nav-item dropdown">
+                                 <a class="nav-link links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   Blog
+                                 </a>
+                                 <ul class="dropdown-menu blog-list">
+                                   <li><a class="dropdown-item" href="#">Action</a></li>
+                                   <li><a class="dropdown-item" href="#">Another action</a></li>
+                                   <li><hr class="dropdown-divider"></li>
+                                   <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </li>
+                           </div>
+                           <div class="docs">
+                              <li class="nav-item dropdown">
+                                 <a class="nav-link links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   Docs/Components
+                                 </a>
+                                 <ul class="dropdown-menu docs-list">
+                                   <li><a class="dropdown-item" href="#">Action</a></li>
+                                   <li><a class="dropdown-item" href="#">Another action</a></li>
+                                   <li><hr class="dropdown-divider"></li>
+                                   <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </li>
+                           </div>
+                         </ul>
+                       </div>
+                     </div>
+                   </nav>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--header section ends-->
+
+      <!--hero section starts-->
+            <div class="hero">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-7 col-lg-6 desc">
+                       <h2 class="news">Has just arrived!</h2>
+                       <h1 class="title">Huge Summer Collection</h1>
+                       <h5 class="wears">Swimwear, Tops, Shorts, Sunglasses & much more...</h5>
+                       <button class="shop-btn">Shop Now <i class="bi-chevron-right"></i></button>
+                     </div>
+                  </div>
+               </div>
+               <div class="categories">
+                  <div class="container">
+                     <div class="row gender shadow">
+                        <div class="col-sm-4">
+                           <div class="card men-card category-card"    style="width: 16rem;">
+                              <img src="images/categories/cat-sm01.jpg" class="card-img-top" alt="men">
+                              <div class="card-body">
+                                <p class="card-text men">Men</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="card women-card category-card" style="width: 16rem;">
+                              <img src="images/categories/cat-sm02.jpg" class="card-img-top" alt="women">
+                              <div class="card-body">
+                                <p class="card-text women">Women</p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="card kids-card category-card" style="width: 16rem;">
+                              <img src="images/categories/cat-sm03.jpg" class="card-img-top" alt="kids">
+                              <div class="card-body">
+                                <p class="card-text">Kids</p>
+                              </div>
+                            </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+      <!--hero section ends-->
+
+      <!--products section starts-->
+      <div class="products">
+         <div>
+            <h1>Trending products</h1>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-6 col-md-4 col-xl-3 catalog">
+                  <div class="card catalog-card">
+                     <img src="images/catalog/01.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <p>Sneakers & Keds</p>
+                       <button class="card-title">Women Colorblock Sneakers</button>
+                       <div>
+                        <span class="price">$154.00</span>
+                        <small>
+                        <i class="bi-star-fill icon"></i>
+                        <i class="bi-star-fill icon"></i>
+                        <i class="bi-star-fill icon"></i>
+                        <i class="bi-star-half icon"></i>
+                        <i class="bi-star icon"></i>
+                        </small>
+                       </div>
+                     </div>
+                  </div>
+                  <i class="bi-heart catalog-icon"></i>
+               </div>
+               <div class="col-sm-6 col-md-4 col-xl-3 catalog">
+                  <div class="card catalog-card">
+                     <img src="images/catalog/02.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <p>Women's T-shirt</p>
+                        <button class="card-title">Cotton Lace Blouse</button>
+                        <div>
+                         <span class="price">$28.50</span>
+                         <small>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star icon"></i>
+                         <i class="bi-star icon"></i>
+                         </small>
+                        </div>
+                     </div>
+                  </div>
+                  <i class="bi-heart catalog-icon"></i>
+               </div>
+               <div class="col-sm-6 col-md-4 col-xl-3 catalog">
+                  <div class="card catalog-card">
+                     <img src="images/catalog/03.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <p>Women's Shorts</p>
+                        <button class="card-title">Mom High Waist  Shorts</button>
+                        <div>
+                         <span class="price">$154.00</span>
+                         <small>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         </small>
+                        </div>
+                     </div>
+                  </div>
+                  <i class="bi-heart catalog-icon"></i>
+               </div>
+               <div class="col-sm-6 col-md-4 col-xl-3 catalog">
+                  <div class="card catalog-card">
+                     <img src="images/catalog/07.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <p>Women's Swimwear</p>
+                        <button class="card-title">Two-Piece Bikini in Print</button>
+                        <div>
+                         <span class="price">$18.99</span>
+                         <small>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star icon"></i>
+                         </small>
+                        </div>
+                     </div>
+                  </div>
+                  <i class="bi-heart catalog-icon"></i>
+               </div>
+               <div class="col-sm-6 col-md-4 col-xl-3 catalog">
+                  <div class="card catalog-card">
+                     <img src="images/catalog/04.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <p>Sportswear</p>
+                        <button class="card-title">Women Sports Jacket</button>
+                        <div>
+                         <span class="price">$68.40</span>
+                         <small>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-half icon"></i>
+                         <i class="bi-star icon"></i>
+                         </small>
+                        </div>
+                     </div>
+                  </div>
+                  <i class="bi-heart catalog-icon"></i>
+               </div>
+               <div class="col-sm-6 col-md-4 col-xl-3 catalog">
+                  <div class="card catalog-card">
+                     <img src="images/catalog/05.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <p>Men's Sunglasses</p>
+                        <button class="card-title">Polarized Sunglasses</button>
+                        <div>
+                         <span class="price">out of stock</span>
+                         <small>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star icon"></i>
+                         </small>
+                        </div>
+                     </div>
+                  </div>
+                  <i class="bi-heart catalog-icon"></i>
+               </div>
+               <div class="col-sm-6 col-md-4 col-xl-3 catalog">
+                  <div class="card catalog-card">
+                     <img src="images/catalog/06.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <p>Backpack</p>
+                        <button class="card-title">TH Jeans City Backpack</button>
+                        <div>
+                         <span class="price">$79.50</span>
+                         <small>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-half icon"></i>
+                         <i class="bi-star icon"></i>
+                         <i class="bi-star icon"></i>
+                         </small>
+                        </div>
+                     </div>
+                  </div>
+                  <i class="bi-heart catalog-icon"></i>
+               </div>
+               <div class="col-sm-6 col-md-4 col-xl-3 catalog">
+                  <div class="card catalog-card">
+                     <img src="images/catalog/25.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <p>Women's Sneakers</p>
+                        <button class="card-title">Leather High-Top Sneakers</button>
+                        <div>
+                         <span class="price">$215.00</span>
+                         <small>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star-fill icon"></i>
+                         <i class="bi-star icon"></i>
+                         </small>
+                        </div>
+                     </div>
+                  </div>
+                  <i class="bi-heart catalog-icon"></i>
+               </div>
+            </div>
+         </div>
+         <div class="more-products">
+            <button class="more-btn">More products <i class="bi-chevron-right"></i></button>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8 offer">
+                  <div class="desc">
+                     <p class="offer-news">Hurry up! Limited time offer</p>
+                     <h2 class="offer-title">Converse All Star on Sale</h2>
+                     <button class="offer-btn shadow">Shop Now</button>
+                  </div>
+               </div>
+               <div class="col-md-4 banner">
+                  <div class="spot">
+                     <h5>Your Add Banner Here</h5>
+                     <p>Hurry up to reserve your spot</p>
+                     <button class="spot-btn">Contact us</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row hoodie">
+               <div class="col-md-5 hoodie-day">
+                  <div class="topic">
+                  <h2>Hoodie day</h2>
+                  <button class="hoodie-btn">Shop hoodie <i class="bi-chevron-right"></i></button>
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-sm-6 col-md-4 hoodie-catalog">
+                           <div class="card catalog-card">
+                              <img src="images/catalog/20.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                 <p>Hoodie & Sweatshirts</p>
+                                 <button class="card-title">Block-colored Hooded Top</button>
+                                 <div>
+                                  <span class="price">$215.00</span>
+                                  <small>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star icon"></i>
+                                  </small>
+                                 </div>
+                              </div>
+                           </div>
+                           <i class="bi-heart hoodie-catalog-icon"></i>
+                        </div>
+                        <div class="col-sm-6 col-md-4 hoodie-catalog">
+                           <div class="card catalog-card">
+                              <img src="images/catalog/21.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                 <p>Hoodie & Sweatshirts</p>
+                                 <button class="card-title">Block-colored Hooded Top</button>
+                                 <div>
+                                  <span class="price">$215.00</span>
+                                  <small>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star icon"></i>
+                                  </small>
+                                 </div>
+                              </div>
+                           </div>
+                           <i class="bi-heart hoodie-catalog-icon"></i>
+                        </div>
+                        <div class="col-sm-6 col-md-4 hoodie-catalog">
+                           <div class="card catalog-card">
+                              <img src="images/catalog/23.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                 <p>Hoodie & Sweatshirts</p>
+                                 <button class="card-title">Block-colored Hooded Top</button>
+                                 <div>
+                                  <span class="price">$215.00</span>
+                                  <small>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star icon"></i>
+                                  </small>
+                                 </div>
+                              </div>
+                           </div>
+                           <i class="bi-heart hoodie-catalog-icon"></i>
+                        </div>
+                        <div class="col-sm-6 col-md-4 hoodie-catalog">
+                           <div class="card catalog-card">
+                              <img src="images/catalog/51.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                 <p>Hoodie & Sweatshirts</p>
+                                 <button class="card-title">Mono Color Hooded Top</button>
+                                 <div>
+                                  <span class="price">$215.00</span>
+                                  <small>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star icon"></i>
+                                  </small>
+                                 </div>
+                              </div>
+                           </div>
+                           <i class="bi-heart hoodie-catalog-icon"></i>
+                        </div>
+                        <div class="col-sm-6 col-md-4 hoodie-catalog">
+                           <div class="card catalog-card">
+                              <img src="images/catalog/24.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                 <p>Hoodie & Sweatshirts</p>
+                                 <button class="card-title">Block-colored Hooded Top</button>
+                                 <div>
+                                  <span class="price">$215.00</span>
+                                  <small>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star icon"></i>
+                                  </small>
+                                 </div>
+                              </div>
+                           </div>
+                           <i class="bi-heart hoodie-catalog-icon"></i>
+                        </div>
+                        <div class="col-sm-6 col-md-4 hoodie-catalog">
+                           <div class="card catalog-card">
+                              <img src="images/catalog/54.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                 <p>Hoodie & Sweatshirts</p>
+                                 <button class="card-title">Mono Color Hooded Top</button>
+                                 <div>
+                                  <span class="price">$215.00</span>
+                                  <small>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star-fill icon"></i>
+                                  <i class="bi-star icon"></i>
+                                  </small>
+                                 </div>
+                              </div>
+                           </div>
+                           <i class="bi-heart hoodie-catalog-icon"></i>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--products section ends-->
+
+      <!--brands section starts-->
+      <div class="brands">
+         <div class="shop-brands">
+            <h3>Shop by brand</h3>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="row row-cols-1 row-cols-md-3 g-4">
+                   <div class="col one shadow">
+                      <button class="brand-btn">
+                        <img src="images/brands/01.png" class="card-img-top" alt="...">
+                      </button>
+                   </div>
+                   <div class="col one shadow">
+                       <button class="brand-btn">
+                         <img src="images/brands/02.png" class="card-img-top" alt="...">
+                       </button>
+                   </div>
+                   <div class="col one shadow">
+                       <button class="brand-btn">
+                         <img src="images/brands/03.png" class="card-img-top" alt="...">
+                       </button>
+                   </div>
+                   <div class="col one shadow">
+                       <button class="brand-btn">
+                         <img src="images/brands/04.png" class="card-img-top" alt="...">
+                       </button>
+                   </div>
+                   <div class="col one shadow">
+                       <button class="brand-btn">
+                         <img src="images/brands/05.png" class="card-img-top" alt="...">
+                       </button>
+                   </div>
+                   <div class="col one shadow">
+                       <button class="brand-btn">
+                         <img src="images/brands/06.png" class="card-img-top" alt="...">
+                       </button>
+                   </div>
+                   <div class="col one shadow">
+                       <button class="brand-btn">
+                         <img src="images/brands/07.png" class="card-img-top" alt="...">
+                       </button>
+                   </div>
+                   <div class="col one shadow">
+                       <button class="brand-btn">
+                         <img src="images/brands/08.png" class="card-img-top" alt="...">
+                       </button>
+                   </div>
+                   <div class="col one shadow">
+                       <button class="brand-btn">
+                         <img src="images/brands/09.png" class="card-img-top" alt="...">
+                       </button>
+                   </div>
+                   <div class="col one shadow">
+                       <button class="brand-btn">
+                         <img src="images/brands/10.png" class="card-img-top" alt="...">
+                       </button>
+                   </div>
+                   <div class="col one shadow">
+                       <button class="brand-btn">
+                         <img src="images/brands/11.png" class="card-img-top" alt="...">
+                       </button>
+                   </div>
+                   <div class="col one shadow">
+                       <button class="brand-btn">
+                         <img src="images/brands/12.png" class="card-img-top" alt="...">
+                       </button>
+                   </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <!--brands section ends-->
+
+      <!--media section starts-->
+      <div class="bg-danger media">
+        <div class="row">
+          <div class="col text-center pencil">
+            <i class="bi-pencil-square pencil-icon"></i>
+            <h5>Read the blog</h5>
+            <p>Latest store, fashion news and trends</p>
+          </div>
+          <div class="col text-center instagram">
+            <i class="bi-instagram instagram-icon"></i>
+            <h5>Follow on Instagram</h5>
+            <p>#ShopWithCartzilla</p>
+          </div>
+        </div>
+      </div>
+      <!--media section ends-->
+
+      <!--footer section starts-->
+      <div class="footer bg-dark">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4 col-sm-6">
+                  <h5>Shop departments</h5>
+                  <button class="footer-btn">Sneaker & Apparel</button>
+                  <button class="footer-btn">Sandals</button>
+                  <button class="footer-btn">jeans</button>
+                  <button class="footer-btn">Shirts & Tops</button>
+                  <button class="footer-btn">Shorts</button>
+                  <button class="footer-btn">T-Shirts</button>
+                  <button class="footer-btn">Swimwear</button>
+                  <button class="footer-btn">Clogs & Mules</button>
+                  <button class="footer-btn">Bags Wallets</button>
+                  <button class="footer-btn">Accessories</button>
+                  <button class="footer-btn">Sunglasses & Eyewear</button>
+                  <button class="footer-btn">Watches</button>
+               </div>
+               <div class="col-md-4 col-sm-6">
+                  <h5>Account & shipping info</h5>
+                  <button class="footer-btn">Your account</button>
+                  <button class="footer-btn">Shipping rates & policies</button>
+                  <button class="footer-btn">Refunds & replacements</button>
+                  <button class="footer-btn">Order tracking</button>
+                  <button class="footer-btn">Delivery info</button>
+                  <button class="footer-btn">Taxes & fees</button>
+                  <h5>About us</h5>
+                  <button class="footer-btn">About company</button>
+                  <button class="footer-btn">Our team</button>
+                  <button class="footer-btn">Careers</button>
+                  <button class="footer-btn">News</button>
+               </div>
+               <div class="col-md-4 col-sm-6">
+                  <h5>Stay informed</h5>
+                  <input type="search" placeholder="Your email" class="search-box">
+                  <button class="search-btn">Subscribe*</button>
+                  <small class="info">*Subscribe to our newsletter to receive early discount offers updates and new products info.</small>
+                  <h5>Download our app</h5>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--footer section starts-->
+   </div>
+</body>
+</html>
