@@ -22,7 +22,6 @@
    padding-top: .8rem;
    background-color: #faf8f8;
    height: 4.5rem;
-   margin-top: 2rem;
 }
 @media screen and (min-width: 800px) and (max-width: 999px) {
    .header .logo-nav {
@@ -179,7 +178,7 @@
 }
 
 .second-nav {
-   margin-top: 4.5rem;
+   margin-top: .5rem;
 }
 
 .header .departments .drop-menu-container {
@@ -498,6 +497,11 @@
    font-weight: 400;
 }
 
+.products .promo {
+   margin-left: auto;
+   margin-right: auto;
+}
+
 .products .offer {
    background-color: rgb(245, 251, 251);
    background-image: url(images/catalog/banner.jpg);
@@ -506,17 +510,28 @@
    height: 13rem;
    background-size: 22rem;
    border-radius: .5rem;
+   padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+   .products .offer {
+      margin: none;
+      padding: none;
+      display: inline;
+   }
 }
 .products .offer .desc {
    position: relative;
    background-color: none;
    margin-left: 2rem;
    margin-top: 3rem;
+   width: 19rem;
+   padding-bottom: 1rem;
 }
 
-.products .ffer .desc h2 {
+.products .offer .desc h2 {
    text-align: left;
-   font-size: .9rem;
+   font-size: 1.5rem;
 }
 
 .products .offer .desc p {
@@ -543,12 +558,12 @@
 }
 
 .products .banner .spot {
-   position: relative;
    background-color: none;
    margin-left: 2rem;
-   margin-top: 3rem;
+   margin-top: none;
    text-align: center;
-
+   height: 13rem;
+   padding-top: 3rem;
 }
 
 .products .banner .spot-btn {
@@ -568,16 +583,30 @@
    box-shadow: none;
 }
 
+.products .contact {
+   padding-left: none;
+   border-radius: .5rem;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+   .products .banner {
+      width: 15rem;
+      margin-left: none;
+      display: inline;
+   }
+}
+
 .products .banner {
    background-image: url(images/banner-bg.jpg);
    background-repeat: no-repeat;
    background-position: center;
    height: 13rem;
-   margin-left: 2rem;
-   width: 25rem;
-   padding-right: 3rem;
-   border-radius: .75rem;
-   background-size: 100%;
+   margin-left: 1rem;
+   width: 30rem;
+   padding-right: none;
+   border-radius: rem;
+   background-size: 80%;
+   margin-top: none;
 }
 
 .products .banner h5 {
