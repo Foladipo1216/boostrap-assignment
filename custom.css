@@ -3,16 +3,33 @@
    background-color: #4b4f4f;
    height: 2rem;
    padding-top: .2rem;
-}
-.header .services .phone {
-   padding: 0;
-   width: 2rem;
-   border: none;
+   display: flex;
+   text-align: center;
+   justify-content: space-between;
+   justify-items: center;
 }
 
 .header .nav-btn {
    border: none;
    background-color: transparent;
+   color: lightgray;
+}
+
+.header .carouselwords {
+   height: 1.5rem;
+   padding-right: 2rem;
+   padding-left: 2rem;
+   color: lightgray;
+   font-size: .9rem;
+}
+
+.header .carousel-part {
+   margin-left: 15rem;
+   padding-top: .2rem;
+}
+
+.header .prev-icon .next-icon {
+   width: 1rem;
 }
 
 .header .logo-nav {
@@ -135,7 +152,7 @@
    position: absolute;
    display: none;
    border: none;
-   z-index: 1;
+   z-index: 10;
 
 }
 
@@ -187,7 +204,7 @@
    padding-top: 2.5rem;
    display: none;
    position: absolute;
-   z-index: 1;
+   z-index: 10;
 }
 
 .header .departments:hover .drop-menu-container {
@@ -314,9 +331,27 @@
 /*header section ends*/
 
 /*hero section starts*/
-.hero {
+.hero .firstslide {
    background-color: rgb(51, 178, 207);
    background-image: url(images/carousel01.jpg);
+   height: 43rem;
+   background-repeat: no-repeat;
+   background-position: right;
+   color: #fff;
+   background-size: 60rem;
+}
+
+.hero .secondslide {
+   background-color: burlywood;
+   height: 43rem;
+   background-repeat: no-repeat;
+   background-position: right;
+   color: #fff;
+   background-size: 60rem;
+}
+
+.hero .thirdslide {
+   background-color: brown;
    height: 43rem;
    background-repeat: no-repeat;
    background-position: right;
@@ -368,8 +403,10 @@
 }
 
 .hero .categories {
-   margin-top: 10rem;
+   margin-top: -10rem;
    padding-top: 2rem;
+   z-index: 10;
+   position: relative;
 }
 
 .hero .category-card {
@@ -414,7 +451,7 @@
 
 /*products section starts*/
 .products {
-   margin-top: 18rem;
+   margin-top: 5rem;
 }
 
 .products h1 {
